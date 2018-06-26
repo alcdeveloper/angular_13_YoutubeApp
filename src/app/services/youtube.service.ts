@@ -7,8 +7,8 @@ import 'rxjs/Rx';
 export class YoutubeService {
 
 	private youtubeUrl:string="https://www.googleapis.com/youtube/v3";
-	private apiKey:string="AIzaSyAjL2at98lapAihEoqUoOVUiyKrIS2nSZI";
-	private playlist:string="UCuaPTYj15JSkETGnEseaFFg";
+	private apiKey:string="";
+	private playlist:string="";
 	private nextPageToken:string="";
 
   constructor(public http:Http) {}
